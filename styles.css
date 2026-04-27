@@ -460,11 +460,11 @@ textarea {
 }
 
 .page-hero-facilities {
-  --page-hero-image: url("images/School 1.jpg");
+  --page-hero-image: url("images/Facilities.jpeg");
 }
 
 .page-hero-gallery {
-  --page-hero-image: url("images/Evets.jpg");
+  --page-hero-image: url("images/About.jpeg");
 }
 
 .page-hero-news {
@@ -472,7 +472,7 @@ textarea {
 }
 
 .page-hero-testimonials {
-  --page-hero-image: url("images/Principal.jpg");
+  --page-hero-image: url("images/Awards.jpeg");
 }
 
 .page-hero-contact {
