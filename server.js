@@ -691,5 +691,5 @@ app.use((error, _req, res, _next) => {
 validateAuthConfiguration();
 
 app.listen(port, () => {
-  console.log(`Hill Fort site running on https://localhost:${port}`);
+  console.log(`Hillfort site running on https://localhost:${port}`);
 });

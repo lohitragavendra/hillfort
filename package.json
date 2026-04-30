@@ -2,7 +2,7 @@
   "name": "hill-fort-cbse-school",
   "version": "1.0.0",
   "private": true,
-  "description": "Hill Fort CBSE School website with admin testimonial moderation.",
+  "description": "Hillfort CBSE School website with admin testimonial moderation.",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"

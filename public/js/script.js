@@ -128,7 +128,7 @@ function renderTestimonial(index) {
       <article class="testimonial-content">
         <div class="stars" aria-hidden="true">★★★★★</div>
         <p>Testimonials are waiting for admin approval.</p>
-        <div><strong>Hill Fort CBSE School</strong><span>Be the first to share feedback.</span></div>
+        <div><strong>Hillfort CBSE School</strong><span>Be the first to share feedback.</span></div>
       </article>
     `;
     return;
