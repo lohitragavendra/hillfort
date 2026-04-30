@@ -8,7 +8,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" type="image/png" href="favicon/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="favicon/favicon.svg" />
+  <link rel="shortcut icon" href="favicon/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png" />
+  <link rel="manifest" href="favicon/site.webmanifest" />
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -23,6 +28,18 @@
           <div class="testimonial-card" data-testimonial></div>
           <button class="slider-arrow next" type="button" aria-label="Next testimonial" data-test-next>›</button>
         </div>
+        <form class="enquiry-form testimonial-submit-form reveal" id="testimonial-form" action="/api/testimonials/submit" method="POST">
+          <h3>Share Your Experience</h3>
+          <p class="testimonial-form-note">If you would like to leave feedback about the school, send it here and the admin team will review it before publishing.</p>
+          <div class="form-grid">
+            <label>Full Name<input type="text" name="name" placeholder="Your name" required /></label>
+            <label>Relationship / Role<input type="text" name="role" placeholder="Parent, alumnus, customer..." required /></label>
+          </div>
+          <label>Email Address<input type="email" name="email" placeholder="you@example.com" /></label>
+          <label>Your Testimonial<textarea name="testimonial" rows="5" placeholder="Tell us what you liked about Hill Fort CBSE School..." required></textarea></label>
+          <p class="form-status" data-testimonial-status aria-live="polite"></p>
+          <button class="button button-primary" type="submit">Send Testimonial</button>
+        </form>
       </div>
     </section>
   </main>
@@ -38,6 +55,6 @@
       <div><strong data-name></strong><span data-role></span></div>
     </article>
   </template>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
